@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab04 Combined</string>
+    <string name="title_dictionary">Dictionary</string>
+    <string name="title_health">Health App</string>
+    <string name="action_lookup">Lookup</string>
+    <string name="hint_word">Enter a word</string>
+    <string name="label_no_matches">No matches found</string>
+</resources>
+

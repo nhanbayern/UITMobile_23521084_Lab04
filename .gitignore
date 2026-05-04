@@ -1,0 +1,45 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+
+# Android Studio captures
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Kotlin/Java
+*.class
+*.log
+
+# Generated files
+app/build/
+**/build/
+
+# Keystore
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle wrapper
+
+# IntelliJ
+out/
+
+# Misc
+*.apk
+*.ap_
+*.aab
+
+# Do not ignore demo assets (keep screenshots/videos in repo)
+!demo/
+
+

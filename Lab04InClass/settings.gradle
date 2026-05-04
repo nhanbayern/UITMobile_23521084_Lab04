@@ -1,0 +1,3 @@
+rootProject.name = "Lab04Combined"
+include ":app"
+
