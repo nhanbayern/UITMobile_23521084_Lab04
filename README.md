@@ -3,7 +3,6 @@
 ## In class
 
 <!-- README for Lab04 project -->
-# Lab04 - Combined Android Labs
 
 This repository contains the Lab04 Android coursework combining two small apps in one project:
 
@@ -28,23 +27,23 @@ The main application module is `app/` and demo screenshots/videos are in the `de
 
 ## Demo Results
 
-The screenshots below are embedded directly from `Lab04InClass/demo/` so they render in this README.
+The screenshots below are embedded directly from `demo/` so they render in this README.
 
 <table>
   <tr>
     <td style="text-align:center;">
-      <img src="Lab04InClass/demo/Screenshot_20260504_230352.png" alt="Screenshot 1" width="80%" />
+      <img src="demo/Screenshot_20260504_230352.png" alt="Screenshot 1" width="80%" />
     </td>
     <td style="text-align:center;">
-      <img src="Lab04InClass/demo/Screenshot_20260504_230403.png" alt="Screenshot 2" width="80%" />
+      <img src="demo/Screenshot_20260504_230403.png" alt="Screenshot 2" width="80%" />
     </td>
   </tr>
   <tr>
     <td style="text-align:center;">
-      <img src="Lab04InClass/demo/Screenshot_20260504_230415.png" alt="Screenshot 3" width="80%" />
+      <img src="demo/Screenshot_20260504_230415.png" alt="Screenshot 3" width="80%" />
     </td>
     <td style="text-align:center;">
-      <img src="Lab04InClass/demo/Screenshot_20260504_230453.png" alt="Screenshot 4" width="80%" />
+      <img src="demo/Screenshot_20260504_230453.png" alt="Screenshot 4" width="80%" />
     </td>
   </tr>
 </table>
