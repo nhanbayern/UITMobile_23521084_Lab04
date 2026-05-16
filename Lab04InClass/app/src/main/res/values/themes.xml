@@ -6,5 +6,14 @@
         <item name="colorSecondary">@color/orange</item>
         <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
     </style>
+
+    <style name="Theme.Lab04Combined.Tv" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#E50914</item>
+        <item name="android:navigationBarColor">#050505</item>
+        <item name="android:statusBarColor">#050505</item>
+    </style>
 </resources>
 

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.lab04combined.databinding.ActivityMainBinding
 import com.example.lab04combined.dictionary.DictionaryActivity
 import com.example.lab04combined.health.HealthActivity
+import com.example.lab04combined.tv.MovieTvActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -20,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         }
         binding.buttonHealth.setOnClickListener {
             startActivity(Intent(this, HealthActivity::class.java))
+        }
+        binding.buttonHomework.setOnClickListener {
+            startActivity(Intent(this, MovieTvActivity::class.java))
         }
     }
 }

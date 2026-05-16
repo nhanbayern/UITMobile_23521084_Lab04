@@ -26,5 +26,12 @@
         android:text="Open Health App"
         android:layout_marginTop="16dp" />
 
+    <Button
+        android:id="@+id/button_homework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homework: TV Movie App"
+        android:layout_marginTop="16dp" />
+
 </LinearLayout>
 

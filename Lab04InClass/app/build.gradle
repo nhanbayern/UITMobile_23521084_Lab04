@@ -6,22 +6,34 @@ plugins {
 
 android {
     namespace "com.example.lab04combined"
-    compileSdk 34
+    compileSdk 36
+    buildToolsVersion "36.1.0"
 
     defaultConfig {
         applicationId "com.example.lab04combined"
         // Raised minSdk to 30 to be compatible with androidx.health:health-services-client:1.0.0
         // See: Manifest merger error that requires library minSdk 30
         minSdk 30
-        targetSdk 34
+        targetSdk 36
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildFeatures {
+        buildConfig true
         compose true
         viewBinding true
+    }
+
+    def localProps = new Properties()
+    def localPropsFile = rootProject.file("local.properties")
+    if (localPropsFile.exists()) {
+        localPropsFile.withInputStream { localProps.load(it) }
+    }
+    def tmdbBearerToken = localProps.getProperty("TMDB_BEARER_TOKEN", "")
+    defaultConfig {
+        buildConfigField "String", "TMDB_BEARER_TOKEN", "\"${tmdbBearerToken}\""
     }
 
     composeOptions {
